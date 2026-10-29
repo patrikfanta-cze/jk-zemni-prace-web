@@ -1,7 +1,7 @@
 # JK zemní práce – návrh webu
 
 Návrh webu pro JK - zemní práce s.r.o. (IČO 24567876, Klášterecká Jeseň 41, Klášterec nad Ohří, jednatel Jiří Křížek).
-Styl převzatý z webu PICSTOP (tmavý, Barlow Condensed, dlaždice), přebarvený do oranžové z loga JK.
+Světlý design podle loga JK (bílá, černá, oranžová #EB4C24, široké písmo Archivo Expanded uložené u webu). Tmavá verze ve stylu PICSTOP je jen v historii gitu (commit c9db116).
 
 Fotky a logo jsou z FB stránky firmy (originály v `Weby/podklady/jk-zemni-prace/fb`).
 
