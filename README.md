@@ -9,6 +9,5 @@ Fotky a logo jsou z FB stránky firmy (originály v `Weby/podklady/jk-zemni-prac
 - velikosti a ceny kontejnerů (teď 3 / 7 / 10 m³ a „na dotaz“ jako ukázka)
 - přesný seznam techniky a oblast, kde jezdí
 - poptávkový formulář je jen ukázka, nic neodesílá (napojit Web3Forms nebo Google Apps Script)
-- snímek mapy `img/mapa.jpg` pod tlačítkem „Zobrazit mapu“
 - souhlas s použitím fotek z FB, doména, plátce DPH
 - GoatCounter až po domluvě
