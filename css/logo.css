@@ -226,3 +226,4 @@ footer .made a{text-decoration:underline;text-decoration-color:var(--or);text-un
 .legal-date{margin-top:48px;color:var(--muted);font-size:.9rem}
 @media (max-width:700px){.legal{padding:56px 0 72px}}
 .inquiry ::placeholder{color:#66666b;opacity:1} /* 5.2:1 on --paper */
+:focus-visible{outline:3px solid var(--or);outline-offset:2px}
