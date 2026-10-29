@@ -72,7 +72,7 @@ section{padding:104px 0}
 .svc:hover{background:#fffaf7}
 .svc img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
 .svc-body{padding:24px 26px}
-.svc-num{font-family:var(--head);font-stretch:125%;font-weight:800;color:var(--or);font-size:.9rem;letter-spacing:.06em}
+.svc-num{font-family:var(--head);font-stretch:125%;font-weight:800;color:var(--or-text);font-size:.9rem;letter-spacing:.06em}
 .svc h3{margin:4px 0 8px}
 .svc p{color:var(--muted);font-size:.96rem}
 
@@ -225,3 +225,4 @@ footer .made a{text-decoration:underline;text-decoration-color:var(--or);text-un
 .legal strong{color:var(--ink)}
 .legal-date{margin-top:48px;color:var(--muted);font-size:.9rem}
 @media (max-width:700px){.legal{padding:56px 0 72px}}
+.inquiry ::placeholder{color:#66666b;opacity:1} /* 5.2:1 on --paper */
