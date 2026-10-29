@@ -141,7 +141,7 @@ section{padding:104px 0}
 .socials a:hover{background:var(--ink);color:#fff}
 .map{margin-top:28px;width:100%;aspect-ratio:16/10;border:0}
 .map-consent{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:var(--paper);border:2px solid var(--line)}
-.map-consent::before{content:"";position:absolute;inset:0;background:url(../img/mapa.jpg?v=1) center/cover;filter:grayscale(1) contrast(.9) brightness(1.05);opacity:.55}
+.map-consent::before{content:"";position:absolute;inset:0;background:url(../img/mapa.jpg?v=2) center/cover;filter:grayscale(1) contrast(.9) brightness(1.05);opacity:.55}
 .map-inner{position:relative;z-index:1;text-align:center;padding:24px;max-width:420px;background:rgba(255,255,255,.92);border-top:5px solid var(--or)}
 .map-inner svg{width:36px;height:36px;fill:var(--or);margin:0 auto 6px;display:block}
 .map-inner b{display:block;font-family:var(--head);font-stretch:125%;font-weight:800;text-transform:uppercase;color:var(--ink)}
