@@ -89,7 +89,6 @@ section{padding:104px 0}
 .dark h2,.dark h3{color:#fff}
 .dark .kicker{color:#ff8a5c}
 .dark .head p{color:#b3b3b3}
-.draft-note{border-left:5px solid var(--or);background:rgba(235,76,36,.12);color:#ffb08f;padding:10px 16px;margin:-24px 0 30px;font-weight:500}
 .boxes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .box{border:2px solid #333;padding:30px 28px;display:flex;flex-direction:column;transition:border-color .15s}
 .box:hover{border-color:var(--or)}
