@@ -8,6 +8,6 @@ Fotky a logo jsou z FB stránky firmy (originály v `Weby/podklady/jk-zemni-prac
 ## Otevřené body
 - velikosti a ceny kontejnerů (teď 3 / 7 / 10 m³ a „na dotaz“ jako ukázka)
 - přesný seznam techniky a oblast, kde jezdí
-- poptávkový formulář je jen ukázka, nic neodesílá (napojit Web3Forms nebo Google Apps Script)
+- poptávkový formulář odstraněn 2026-10-30 (Patrik), kontakt = telefon, WhatsApp, e-mail
 - souhlas s použitím fotek z FB, doména, plátce DPH
 - GoatCounter až po domluvě
