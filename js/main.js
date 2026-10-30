@@ -21,26 +21,10 @@ menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.c
 // Google map loads only after the visitor asks for it (no data sent to Google before that)
 document.getElementById('map-load').addEventListener('click', () => {
   const f = document.createElement('iframe');
-  f.className = 'map';
+  f.className = 'map contact-map';
   f.title = 'Mapa – JK zemní práce';
   f.src = 'https://maps.google.com/maps?q=' + encodeURIComponent('Klášterecká Jeseň 41, Klášterec nad Ohří') + '&z=14&output=embed&hl=cs';
   document.getElementById('map').replaceWith(f);
-});
-
-// inquiry form: draft only, nothing is sent yet (backend not connected)
-const form = document.getElementById('inquiry');
-form.addEventListener('submit', e => {
-  e.preventDefault();
-  let ok = true;
-  form.querySelectorAll('[required]').forEach(el => {
-    const bad = el.type === 'checkbox' ? !el.checked : !el.value.trim();
-    el.closest('label').classList.toggle('invalid', bad);
-    if (bad) ok = false;
-  });
-  const msg = document.getElementById('form-msg');
-  msg.textContent = ok
-    ? 'Návrh webu: formulář zatím nic neodesílá. Zavolejte prosím na 607 134 524.'
-    : 'Vyplňte prosím jméno, telefon a potvrďte zásady.';
 });
 
 document.getElementById('y').textContent = new Date().getFullYear();
