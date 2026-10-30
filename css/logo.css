@@ -114,6 +114,7 @@ section{padding:104px 0}
 .gallery{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:8px}
 .gallery figure{margin:0;overflow:hidden;background:var(--paper)}
 .gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.gallery a{display:block;height:100%}
 .gallery figure:hover img{transform:scale(1.04)}
 .g-big{grid-column:span 2;grid-row:span 2}
 .g-wide{grid-column:span 2}
