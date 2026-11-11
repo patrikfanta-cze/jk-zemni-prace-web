@@ -1,0 +1,29 @@
+/* Black + orange dress code (client request 2026-11-11). Loaded after logo.css; remove the <link> to go back to the light look. */
+:root{
+  --white:#0b0b0b;     /* page background */
+  --paper:#161616;     /* alternate sections */
+  --ink:#ffffff;       /* headings, strong text */
+  --ink-2:#d4d4d4;     /* body text */
+  --muted:#a3a3a3;     /* 7.6:1 on #0b0b0b */
+  --line:#2c2c2c;
+  --or-text:#f04e23;   /* 5.4:1 on #0b0b0b */
+  --or-deep:#f04e23;
+}
+.btn-or{color:#000}
+.btn-or:hover{background:#fff;color:#000}
+.btn-ink:hover,.btn-white:hover,.socials a:hover{color:#000}
+header{background:rgba(11,11,11,.97)}
+header.scrolled{box-shadow:0 6px 24px rgba(0,0,0,.6)}
+.band{background:var(--or)}
+.svc:hover{background:#1d1714}
+.step{border-top-color:var(--or)}
+.dark{background:#000}
+.dark .kicker,.box h3{color:var(--or)}
+.box{border-color:#2c2c2c}
+.about-logo::before,.about-logo::after{background:var(--or)}
+.map-consent::before{filter:grayscale(1) invert(1) contrast(.9);opacity:.35}
+.map-inner{background:rgba(11,11,11,.92)}
+footer{background:#000;border-top:4px solid var(--or)}
+footer a:hover{color:var(--or)}
+.award{border:1px solid #2c2c2c}
+@media (max-width:1060px){.menu{background:#0b0b0b;box-shadow:0 14px 30px rgba(0,0,0,.6)}}
