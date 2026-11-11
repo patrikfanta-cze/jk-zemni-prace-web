@@ -1,0 +1,34 @@
+/* Galerie: groups of photos + lightbox (loaded after logo.css and dark.css) */
+.gallery-page{padding:80px 0 100px}
+.gallery-page h1{font-size:clamp(2.2rem,5vw,3.6rem)}
+.gal-nav{display:flex;flex-wrap:wrap;gap:8px;margin:32px 0 8px}
+.gal-nav a{font-family:var(--head);font-stretch:112%;font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:2px solid var(--line);padding:8px 14px;color:var(--ink)}
+.gal-nav a:hover{border-color:var(--or);color:var(--or)}
+.gal-group{padding:0;margin-top:56px}
+.gal-group h2{font-size:clamp(1.5rem,3.2vw,2.2rem);margin-bottom:18px;padding-left:16px;border-left:6px solid var(--or)}
+.gal-group h2 span{font-family:var(--body);font-stretch:100%;font-weight:500;font-size:.9rem;text-transform:none;letter-spacing:0;color:var(--muted);margin-left:8px}
+.gal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.gal-item{display:block;padding:0;border:0;background:#000;cursor:zoom-in;overflow:hidden;aspect-ratio:4/3}
+.gal-item img{width:100%;height:100%;object-fit:cover;transition:transform .4s,opacity .2s}
+.gal-item:hover img{transform:scale(1.05)}
+.gallery-page .cta-row{margin-top:64px}
+
+.lightbox{border:0;padding:0;margin:0;width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;background:rgba(0,0,0,.94);color:#fff}
+.lightbox[open]{display:flex;flex-direction:column;align-items:center;justify-content:center}
+.lightbox::backdrop{background:rgba(0,0,0,.94)}
+.lightbox img{max-width:calc(100vw - 140px);max-height:calc(100dvh - 110px);object-fit:contain}
+.lb-cap{margin-top:12px;font-size:.95rem;color:#d4d4d4;text-align:center;padding:0 16px}
+.lb-btn{position:absolute;width:52px;height:52px;border:2px solid #fff;background:rgba(0,0,0,.55);color:#fff;font-size:2rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.lb-btn:hover{background:var(--or);border-color:var(--or);color:#000}
+.lb-close{top:16px;right:16px}
+.lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb-next{right:16px;top:50%;transform:translateY(-50%)}
+
+@media (max-width:1060px){.gal-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:700px){
+  .gallery-page{padding:56px 0 72px}
+  .gal-grid{grid-template-columns:1fr 1fr;gap:6px}
+  .gal-group{margin-top:44px}
+  .lightbox img{max-width:100vw;max-height:calc(100dvh - 150px)}
+  .lb-prev,.lb-next{top:auto;bottom:16px;transform:none}
+}
