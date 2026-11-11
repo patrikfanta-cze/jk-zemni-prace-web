@@ -56,3 +56,10 @@ footer a:hover{color:var(--or)}
 
 /* hero photo: keep the excavator in frame */
 .hero-photo img{object-position:48% center}
+
+/* 7th service: wide card across the row */
+.svc-wide{grid-column:1/-1}
+.svc-wide img{aspect-ratio:21/8;object-position:center 60%}
+.svc-wide .svc-body{max-width:none}
+.svc-wide p{max-width:640px}
+@media (max-width:700px){.svc-wide img{aspect-ratio:4/3}}
