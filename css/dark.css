@@ -53,3 +53,6 @@ footer a:hover{color:var(--or)}
 .machine span{color:#e2e2e2}
 @media (max-width:1060px){.fleet{gap:16px}}
 @media (max-width:700px){.fleet{gap:12px}}
+
+/* hero photo: keep the excavator in frame */
+.hero-photo img{object-position:44% center}
