@@ -43,3 +43,13 @@ footer a:hover{color:var(--or)}
   .svc-body{padding:64px 18px 16px}
   .svc p{font-size:.92rem}
 }
+
+/* machinery: same look as services (full photo, caption over the bottom) */
+.machine{position:relative;overflow:hidden;background:#000;border-bottom:0}
+.machine img{transition:transform .4s}
+.machine:hover img{transform:scale(1.04)}
+.machine figcaption{position:absolute;left:0;right:0;bottom:0;padding:64px 20px 18px;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.78) 55%,rgba(0,0,0,0) 100%)}
+.machine b{color:#fff;font-size:1.1rem}
+.machine span{color:#e2e2e2}
+@media (max-width:1060px){.fleet{gap:16px}}
+@media (max-width:700px){.fleet{gap:12px}}
