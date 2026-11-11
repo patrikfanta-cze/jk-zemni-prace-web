@@ -67,3 +67,7 @@ footer a:hover{color:var(--or)}
 /* service cards: cross-fading photos (js/slides.js) */
 .svc .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease,transform .4s}
 .svc .slide.on{opacity:1}
+
+/* containers: same photo cards as services */
+.cont-list .svc-num{font-size:1rem;color:var(--or)}
+.cont-note{margin-top:22px;color:#b3b3b3;font-size:.95rem}
