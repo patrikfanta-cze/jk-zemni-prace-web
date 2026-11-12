@@ -10,4 +10,4 @@ Fotky a logo jsou z FB stránky firmy (originály v `Weby/podklady/jk-zemni-prac
 - přesný seznam techniky a oblast, kde jezdí
 - poptávkový formulář odstraněn 2026-10-30 (Patrik), kontakt = telefon, WhatsApp, e-mail
 - souhlas s použitím fotek z FB, doména, plátce DPH
-- GoatCounter až po domluvě
+- GoatCounter: jkzemniprace (lokální js/count.js), nasazen od spuštění 2026-11-12

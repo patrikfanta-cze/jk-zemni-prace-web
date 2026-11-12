@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
+<link rel="canonical" href="https://jkzemniprace.cz/ochrana-osobnich-udaju.html">
 <title>Ochrana osobních údajů | JK zemní práce</title>
 <meta name="description" content="Jak JK - zemní práce s.r.o. zpracovává osobní údaje z poptávek, e-mailů a telefonátů.">
 <link rel="icon" href="img/logo.png">
@@ -63,6 +63,7 @@
       <p>Údaje nikomu neprodáváme. Pro provoz webu využíváme tyto zpracovatele:</p>
       <ul>
         <li><strong>GitHub, Inc.</strong>: hosting webu. Při návštěvě zpracovává technické údaje, jako je IP adresa, v záznamech serveru.</li>
+        <li><strong>GoatCounter</strong>: anonymní měření návštěvnosti bez cookies a bez ukládání IP adres.</li>
         <li><strong>WhatsApp Ireland Ltd.</strong>: když nám napíšete přes WhatsApp, zpráva a vaše telefonní číslo procházejí touto službou.</li>
       </ul>
       <p>Někteří poskytovatelé mohou údaje zpracovávat i mimo EU, zejména v USA. Předání je v takovém případě zajištěno rámcem EU–USA pro ochranu údajů (Data Privacy Framework) nebo standardními smluvními doložkami schválenými Evropskou komisí.</p>
@@ -70,7 +71,7 @@
 
     <section>
       <h2>Cookies a měření návštěvnosti</h2>
-      <p>Tento web nepoužívá cookies ani nástroje pro měření návštěvnosti. Písma jsou uložená přímo na našem webu, takže se kvůli nim nic neposílá třetím stranám.</p>
+      <p>Tento web nepoužívá cookies a nesleduje vás napříč weby. Návštěvnost měříme anonymně nástrojem GoatCounter, který neukládá cookies ani IP adresy. Vidíme jen souhrnná čísla, například kolik lidí si prohlédlo kterou stránku a odkud přišli. Písma jsou uložená přímo na našem webu, takže se kvůli nim nic neposílá třetím stranám.</p>
       <p>Mapa v sekci Kontakt pochází ze služby Google Maps a načte se až ve chvíli, kdy na ni kliknete. Teprve potom může Google zpracovávat údaje o vaší návštěvě podle svých <a href="https://policies.google.com/privacy?hl=cs" target="_blank" rel="noopener">zásad ochrany soukromí</a>.</p>
       <p>Odkazy na Facebook a WhatsApp vedou na jiné weby s vlastními pravidly.</p>
     </section>
@@ -89,7 +90,7 @@
       <p>Pokud si myslíte, že s vašimi údaji nakládáme v rozporu s předpisy, můžete podat stížnost u <a href="https://uoou.gov.cz" target="_blank" rel="noopener">Úřadu pro ochranu osobních údajů</a>, Pplk. Sochora 27, 170 00 Praha 7.</p>
     </section>
 
-    <p class="legal-date">Tyto zásady platí od [DATUM SPUŠTĚNÍ WEBU].</p>
+    <p class="legal-date">Tyto zásady platí od 12. 11. 2026.</p>
   </div>
 </main>
 
@@ -107,5 +108,7 @@ document.getElementById('y').textContent = new Date().getFullYear();
 const burger = document.querySelector('.burger'), menu = document.querySelector('.menu');
 burger.addEventListener('click', () => burger.setAttribute('aria-expanded', menu.classList.toggle('open')));
 </script>
+<!-- Anonymní měření návštěvnosti bez cookies (GoatCounter), skript hostovaný lokálně -->
+<script data-goatcounter="https://jkzemniprace.goatcounter.com/count" async src="js/count.js"></script>
 </body>
 </html>
