@@ -71,3 +71,9 @@ footer a:hover{color:var(--or)}
 /* containers: same photo cards as services */
 .cont-list .svc-num{font-size:1rem;color:var(--or)}
 .cont-note{margin-top:22px;color:#b3b3b3;font-size:.95rem}
+
+/* menu with Galerie: keep items on one line on narrower desktops */
+.menu a{white-space:nowrap}
+@media (min-width:1061px) and (max-width:1240px){.menu{gap:18px}}
+@media (min-width:1061px) and (max-width:1160px){.menu{gap:13px}}
+@media (min-width:1061px) and (max-width:1110px){.menu{gap:9px}}
